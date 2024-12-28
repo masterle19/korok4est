@@ -14,7 +14,7 @@ Come to get lost on in the GRAND 🌱 [[notes/digital-garden|korok4est]] 🌱 fi
 ## Walcam to Master Le's korok4est.
 This is my rendition of a [[notes/digital-garden]]. A good place to start that we all love to ignore is the [[notes/about|about page]], but if you're not about that life, then here are some good starting points too:
 
-- let me introduce you to... [[notes/masterle-inc]]—a wonderful company comprising of fabricated... BUT cool 'af members, each representing a facet of something I find cool.
+- let me introduce you to... [[notes/masterle-inc|Master Le, Inc.]]—a wonderful company comprising of fabricated... BUT cool 'af members, each representing a facet of something I find cool.
 - or... take it all the way back and meet the [[notes/master-le|master, herself]].
 - here are [[things that I love]] 
 - or, I don't know man, explore the [[notes/markdown|wonders of markdown]] with **YOG1TRON** or something.... JASS GO! EXPLORE!
