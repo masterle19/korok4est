@@ -3,10 +3,9 @@ title: "korok4est"
 tags:
   - evergreen
 ---
-<img src="./banner.png" width="701" height="175">
-
+![[banner.png]]
 ```poetry
-Welcome!
+OY, YOU THERE!!
 ```
 
 ### WOT are you doing in me forest, eh?
