@@ -4,7 +4,7 @@ draft: false
 date:
 description: 
 tags:
-  - hearty-radish
+  - radish
 permalink: 
 aliases: 
 ---
