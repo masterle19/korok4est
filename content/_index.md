@@ -12,7 +12,7 @@ OY, YOU THERE!!
 Come to get lost on in the GRAND 🌱 **korok4est (digital garden)** 🌱 filled with ddx wonders and clues, eh? Curious about the mind of Master Le? Well, **lucky you**, because this korok4est is the place to BE for such a voyager. LOL OKAY, in other words...
 
 ## Walcam to Master Le's korok4est.
-This is my rendition of a **digital garden**. A good place to start that we all love to ignore is the **about (about page)**, but if you're not about that life, then here are some good starting points too:
+This is my rendition of a **digital garden**. A good place to start that we all love to ignore is the [[notes/about|about page]], but if you're not about that life, then here are some good starting points too:
 
 - let me introduce you to... **Master Le, Inc.**—a wonderful company comprising of fabricated... BUT cool 'af members, each representing a facet of something I find cool.
 - or... take it all the way back and meet the **master le (master, herself)**.
