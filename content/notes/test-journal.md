@@ -1,10 +1,10 @@
 ---
-title: Hearty Radish
+title: Journals
 draft: false
 date:
 description: 
 tags:
-  - radish
+  - journal
 permalink: 
 aliases: 
 ---
