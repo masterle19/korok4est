@@ -9,8 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0",
-      Twitter: "https://twitter.com/_jzhao",
+      GitHub: "https://github.com/masterle19",
+      Twitter: "https://twitter.com/notmasterle",
     },
   }),
 }
@@ -45,7 +45,6 @@ export const defaultContentPageLayout: PageLayout = {
         linkToMore: "thoughts/" as SimpleSlug,
       }),
     ),
-    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
     Component.Graph({
@@ -57,6 +56,7 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
     Component.Backlinks(),
+    Component.TableOfContents(),
   ],
 }
 

@@ -3,22 +3,21 @@ title: "korok4est"
 tags:
   - evergreen
 ---
-<img src="./banner.png" width="701" height="175">
-
+![[banner.png]]
 ```poetry
-Welcome!
+OY, YOU THERE!!
 ```
 
 ### WOT are you doing in me forest, eh?
-Come to get lost on in the GRAND 🌱 [[digital garden|korok4est]] 🌱 filled with ddx wonders and clues, eh? Curious about the mind of Master Le? Well, **lucky you**, because this korok4est is the place to BE for such a voyager. LOL OKAY, in other words...
+Come to get lost on in the GRAND 🌱 **korok4est (digital garden)** 🌱 filled with ddx wonders and clues, eh? Curious about the mind of Master Le? Well, **lucky you**, because this korok4est is the place to BE for such a voyager. LOL OKAY, in other words...
 
 ## Walcam to Master Le's korok4est.
-This is my rendition of a [[digital garden|digital garden]]. A good place to start that we all love to ignore is the [[about|about page]], but if you're not about that life, then here are some good starting points too:
+This is my rendition of a **digital garden**. A good place to start that we all love to ignore is the **about (about page)**, but if you're not about that life, then here are some good starting points too:
 
-- let me introduce you to... [[Master Le, Inc.]]—a wonderful company comprising of fabricated... BUT cool 'af members, each representing a facet of something I find cool.
-- or... take it all the way back and meet the [[master le|master, herself]].
+- let me introduce you to... **Master Le, Inc.**—a wonderful company comprising of fabricated... BUT cool 'af members, each representing a facet of something I find cool.
+- or... take it all the way back and meet the **master le (master, herself)**.
 - here are [[things that I love]] 
-- or, I don't know man, explore the [[markdown|wonders of markdown]] with **YOG1TRON** or something.... JASS GO! EXPLORE!
+- or, I don't know man, explore the **markdown (wonders of markdown)** with **YOG1TRON** or something.... JASS GO! EXPLORE!
 
 
 ```poetry
