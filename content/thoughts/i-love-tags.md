@@ -1,12 +1,16 @@
 ---
-title: Tags make me
-draft: true
+title: tags & queries got me bricked up
+draft: false
 date:
 description: 
 tags:
-  - 
-permalink: A custom URL for the page that will remain constant even if the path to the file changes.
-aliases: Other names for this note. This is a list of strings.
+  - tree
 ---
  
-The rest of your content lives here. You can use **Markdown** here :)
+I could sit here and strategically write out my rationale for the title of this page but honestly… it might be more worthwhile to take a gander at other people’s p
+
+love the idea of bring able to query memories, thoughts, events, lessons learned etc from a personal learning library. 
+
+It seems that the older we get, the moment in time when something happened or was experienced becomes less important than the event itself. 
+
+X happened and I remember where I was and how I felt, but don’t ask me what year it was because I’ve no idea and will have to look it up using other resources like photos or tickets or tweets or emails. A query system would be fantastic.
