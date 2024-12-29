@@ -1,73 +1,54 @@
-import { PageLayout, SharedLayout } from "./quartz/cfg"
-import * as Component from "./quartz/components"
-import { SimpleSlug } from "./quartz/util/path"
+$breakpoints: (
+  mobile: 800px,
+  desktop: 1100px,
+);
 
-// components shared across all pages
-export const sharedPageComponents: SharedLayout = {
-  head: Component.Head(),
-  header: [],
-  afterBody: [],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/masterle19",
-      Twitter: "https://twitter.com/notmasterle",
-    },
-  }),
-}
+$mobile: "(max-width: #{map-get($breakpoints, mobile)})";
+$tablet: "(min-width: #{map-get($breakpoints, mobile)}) and (max-width: #{map-get($breakpoints, desktop)})";
+$desktop: "(min-width: #{map-get($breakpoints, desktop)})";
 
-// components for pages that display a single page (e.g. a single note)
-export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 4,
-        filter: (f) =>
-          f.slug!.startsWith("notes/") && f.slug! !== "notes/index" && !f.frontmatter?.noindex,
-        linkToMore: "notes/" as SimpleSlug,
-      }),
-    ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Logs",
-        limit: 2,
-        filter: (f) => f.slug!.startsWith("journal/"),
-        linkToMore: "journal/" as SimpleSlug,
-      }),
-    ),
-  ],
-  right: [
-    Component.Graph({
-      localGraph: {
-        showTags: false,
-      },
-      globalGraph: {
-        showTags: false,
-      },
-    }),
-    Component.Backlinks(),
-    Component.TableOfContents(),
-  ],
-}
+$pageWidth: #{map-get($breakpoints, mobile)};
+$sidePanelWidth: 250px;
+$topSpacing: 6rem;
+$boldWeight: 700;
+$semiBoldWeight: 600;
+$normalWeight: 400;
 
-// components for pages that display lists of pages  (e.g. tags or folders)
-export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-  ],
-  right: [],
-}
+$mobileGrid: (
+  templateRows: "auto auto auto auto auto auto",
+  templateColumns: "auto",
+  rowGap: "5px",
+  columnGap: "5px",
+  templateAreas:
+    '"grid-sidebar-left"\
+      "grid-header"\
+      "grid-center"\
+      "grid-sidebar-right"\
+      "grid-graph"\
+      "grid-footer"',
+);
+
+$tabletGrid: (
+  templateRows: "auto auto auto auto auto",
+  templateColumns: "#{$sidePanelWidth} auto",
+  rowGap: "5px",
+  columnGap: "5px",
+  templateAreas:
+    '"grid-sidebar-left grid-header"\
+      "grid-sidebar-left grid-center"\
+      "grid-sidebar-left grid-sidebar-right"\
+      "grid-sidebar-left grid-graph"\
+      "grid-sidebar-left grid-footer"',
+);
+
+$desktopGrid: (
+  templateRows: "auto auto auto auto",
+  templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
+  rowGap: "5px",
+  columnGap: "5px",
+  templateAreas:
+    '"grid-sidebar-left grid-header grid-sidebar-right"\
+      "grid-sidebar-left grid-center grid-sidebar-right"\
+      "grid-sidebar-left grid-graph grid-sidebar-right"\
+      "grid-sidebar-left grid-footer grid-sidebar-right"',
+);
