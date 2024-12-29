@@ -1,6 +1,6 @@
 ---
 title: Post-rediscovering my Google Photos
-draft: true
+draft: false
 date:
 description: 
 tags:

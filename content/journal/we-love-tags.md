@@ -1,5 +1,5 @@
 ---
-title: tags & queries got me bricked up
+title: tags & queries = bricked up masterle
 draft: false
 date:
 description: 
